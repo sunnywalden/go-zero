@@ -21,7 +21,8 @@ func CreateBlockingNode(r *Redis) (ClosableNode, error) {
 	case NodeType:
 		client := red.NewClient(&red.Options{
 			Addr:         r.Addr,
-			Password:     r.Pass,
+			Username:     r.Username,
+			Password:     r.Password,
 			DB:           defaultDatabase,
 			MaxRetries:   maxRetries,
 			PoolSize:     1,
@@ -32,7 +33,8 @@ func CreateBlockingNode(r *Redis) (ClosableNode, error) {
 	case ClusterType:
 		client := red.NewClusterClient(&red.ClusterOptions{
 			Addrs:        splitClusterAddrs(r.Addr),
-			Password:     r.Pass,
+			Username:     r.Username,
+			Password:     r.Password,
 			MaxRetries:   maxRetries,
 			PoolSize:     1,
 			MinIdleConns: 1,

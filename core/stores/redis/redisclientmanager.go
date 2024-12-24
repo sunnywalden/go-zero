@@ -31,7 +31,8 @@ func getClient(r *Redis) (*red.Client, error) {
 		}
 		store := red.NewClient(&red.Options{
 			Addr:         r.Addr,
-			Password:     r.Pass,
+			Username:     r.Username,
+			Password:     r.Password,
 			DB:           defaultDatabase,
 			MaxRetries:   maxRetries,
 			MinIdleConns: idleConns,
