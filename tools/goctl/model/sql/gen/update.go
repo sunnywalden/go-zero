@@ -4,11 +4,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/tools/goctl/model/sql/template"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
-	"github.com/zeromicro/go-zero/tools/goctl/util/stringx"
+	"github.com/sunnywalden/go-zero/core/collection"
+	"github.com/sunnywalden/go-zero/tools/goctl/model/sql/template"
+	"github.com/sunnywalden/go-zero/tools/goctl/util"
+	"github.com/sunnywalden/go-zero/tools/goctl/util/pathx"
+	"github.com/sunnywalden/go-zero/tools/goctl/util/stringx"
 )
 
 func genUpdate(table Table, withCache, postgreSql bool) (

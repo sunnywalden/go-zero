@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/stringx"
-	"github.com/zeromicro/go-zero/tools/goctl/api/spec"
-	apiutil "github.com/zeromicro/go-zero/tools/goctl/api/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
+	"github.com/sunnywalden/go-zero/core/stringx"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/spec"
+	apiutil "github.com/sunnywalden/go-zero/tools/goctl/api/util"
+	"github.com/sunnywalden/go-zero/tools/goctl/util"
 )
 
 //go:embed markdown.tpl

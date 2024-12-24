@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/tools/goctl/rpc/generator"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/sunnywalden/go-zero/tools/goctl/rpc/generator"
+	"github.com/sunnywalden/go-zero/tools/goctl/util"
+	"github.com/sunnywalden/go-zero/tools/goctl/util/pathx"
 )
 
 var (

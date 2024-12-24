@@ -6,9 +6,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/search"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/pathvar"
+	"github.com/sunnywalden/go-zero/core/search"
+	"github.com/sunnywalden/go-zero/rest/httpx"
+	"github.com/sunnywalden/go-zero/rest/pathvar"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"time"
 
 	red "github.com/redis/go-redis/v9"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/stringx"
+	"github.com/sunnywalden/go-zero/core/logx"
+	"github.com/sunnywalden/go-zero/core/stringx"
 )
 
 const (

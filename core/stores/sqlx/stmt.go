@@ -6,10 +6,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/syncx"
-	"github.com/zeromicro/go-zero/core/timex"
+	"github.com/sunnywalden/go-zero/core/breaker"
+	"github.com/sunnywalden/go-zero/core/logx"
+	"github.com/sunnywalden/go-zero/core/syncx"
+	"github.com/sunnywalden/go-zero/core/timex"
 )
 
 const defaultSlowThreshold = time.Millisecond * 500

@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/ast"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/importstack"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/placeholder"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/token"
+	"github.com/sunnywalden/go-zero/core/lang"
+	"github.com/sunnywalden/go-zero/tools/goctl/pkg/parser/api/ast"
+	"github.com/sunnywalden/go-zero/tools/goctl/pkg/parser/api/importstack"
+	"github.com/sunnywalden/go-zero/tools/goctl/pkg/parser/api/placeholder"
+	"github.com/sunnywalden/go-zero/tools/goctl/pkg/parser/api/token"
 )
 
 const (

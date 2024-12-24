@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/executors"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/stringx"
+	"github.com/sunnywalden/go-zero/core/executors"
+	"github.com/sunnywalden/go-zero/core/logx"
+	"github.com/sunnywalden/go-zero/core/stringx"
 )
 
 const (

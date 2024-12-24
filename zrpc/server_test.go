@@ -7,13 +7,13 @@ import (
 
 	"github.com/alicebob/miniredis/v2"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/discov"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/service"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/core/stores/redis"
-	"github.com/zeromicro/go-zero/zrpc/internal"
-	"github.com/zeromicro/go-zero/zrpc/internal/serverinterceptors"
+	"github.com/sunnywalden/go-zero/core/discov"
+	"github.com/sunnywalden/go-zero/core/logx"
+	"github.com/sunnywalden/go-zero/core/service"
+	"github.com/sunnywalden/go-zero/core/stat"
+	"github.com/sunnywalden/go-zero/core/stores/redis"
+	"github.com/sunnywalden/go-zero/zrpc/internal"
+	"github.com/sunnywalden/go-zero/zrpc/internal/serverinterceptors"
 	"google.golang.org/grpc"
 )
 

@@ -3,7 +3,7 @@ package configurator
 import (
 	"sync"
 
-	"github.com/zeromicro/go-zero/core/conf"
+	"github.com/sunnywalden/go-zero/core/conf"
 )
 
 var registry = &unmarshalerRegistry{

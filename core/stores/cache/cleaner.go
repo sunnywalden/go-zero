@@ -5,12 +5,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/core/stringx"
-	"github.com/zeromicro/go-zero/core/threading"
+	"github.com/sunnywalden/go-zero/core/collection"
+	"github.com/sunnywalden/go-zero/core/logx"
+	"github.com/sunnywalden/go-zero/core/proc"
+	"github.com/sunnywalden/go-zero/core/stat"
+	"github.com/sunnywalden/go-zero/core/stringx"
+	"github.com/sunnywalden/go-zero/core/threading"
 )
 
 const (

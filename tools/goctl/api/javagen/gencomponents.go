@@ -11,12 +11,12 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/zeromicro/go-zero/core/stringx"
-	"github.com/zeromicro/go-zero/tools/goctl/api/spec"
-	apiutil "github.com/zeromicro/go-zero/tools/goctl/api/util"
-	"github.com/zeromicro/go-zero/tools/goctl/internal/version"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/sunnywalden/go-zero/core/stringx"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/spec"
+	apiutil "github.com/sunnywalden/go-zero/tools/goctl/api/util"
+	"github.com/sunnywalden/go-zero/tools/goctl/internal/version"
+	"github.com/sunnywalden/go-zero/tools/goctl/util"
+	"github.com/sunnywalden/go-zero/tools/goctl/util/pathx"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/internal/health"
+	"github.com/sunnywalden/go-zero/core/proc"
+	"github.com/sunnywalden/go-zero/internal/health"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health/grpc_health_v1"
 )

@@ -2,19 +2,19 @@ package api
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/tools/goctl/api/apigen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/dartgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/docgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/format"
-	"github.com/zeromicro/go-zero/tools/goctl/api/gogen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/javagen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/ktgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/new"
-	"github.com/zeromicro/go-zero/tools/goctl/api/tsgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/validate"
-	"github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/internal/cobrax"
-	"github.com/zeromicro/go-zero/tools/goctl/plugin"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/apigen"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/dartgen"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/docgen"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/format"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/gogen"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/javagen"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/ktgen"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/new"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/tsgen"
+	"github.com/sunnywalden/go-zero/tools/goctl/api/validate"
+	"github.com/sunnywalden/go-zero/tools/goctl/config"
+	"github.com/sunnywalden/go-zero/tools/goctl/internal/cobrax"
+	"github.com/sunnywalden/go-zero/tools/goctl/plugin"
 )
 
 var (

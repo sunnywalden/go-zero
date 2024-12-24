@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/timex"
+	"github.com/sunnywalden/go-zero/core/proc"
+	"github.com/sunnywalden/go-zero/core/timex"
 )
 
 const threshold = 10

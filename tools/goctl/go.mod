@@ -1,6 +1,8 @@
-module github.com/zeromicro/go-zero/tools/goctl
+module github.com/sunnywalden/go-zero/tools/goctl
 
-go 1.20
+go 1.21
+
+toolchain go1.22.10
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.2
@@ -15,7 +17,7 @@ require (
 	github.com/withfig/autocomplete-tools/integrations/cobra v1.2.1
 	github.com/zeromicro/antlr v0.0.1
 	github.com/zeromicro/ddl-parser v1.0.5
-	github.com/zeromicro/go-zero v1.7.4
+	github.com/sunnywalden/go-zero v1.7.6
 	golang.org/x/text v0.21.0
 	google.golang.org/grpc v1.65.0
 	google.golang.org/protobuf v1.36.0
